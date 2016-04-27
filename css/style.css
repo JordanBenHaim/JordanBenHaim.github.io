@@ -1,0 +1,283 @@
+/*style.css*/
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  color: rgb(59,84,106);
+  font-size: 14px;
+  background-image: url("../img/lightmarble.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+/*links*/
+a {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  letter-spacing: .7px;
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: rgb(59,84,106);
+}
+
+a:active {
+  color: rgb(229,229,229);
+}
+
+header {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+h3 {
+  color: rgb(59,84,106);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+section h2 p,
+#top-box h2 p,
+#skills h2 p{
+  font-size: 12px;
+}
+
+h3,
+p {
+  margin-bottom: 8px;
+}
+
+ul,
+h4,
+h5 {
+  margin: 4px 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+main {
+  background-color: rgba(237,238,240,.5);
+}
+
+section {
+  padding: 10px 20px 0px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 49.5px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+form {
+  padding: 0 0 80px 50px;
+}
+
+label {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  color: rgb(59,84,106);
+  font-size: 14px;
+}
+
+input {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  color: rgb(59,84,106);
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+form div {
+  margin-bottom: 30px;
+}
+
+.button {
+  padding-left: 390px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  letter-spacing: .7px;
+  color: #000;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  border-image: none;
+  background-color: none;
+}
+
+footer {
+  padding: 50px 0px 10px 30px;
+}
+
+#printtitle,
+#contactprint {
+  display: none;
+}
+
+#name{
+  padding: 0px;
+  margin:0 auto;
+}
+
+#top-box {
+  overflow:auto;
+}
+
+#top-box section {
+  width: 380px;
+  float: left;
+}
+
+#centertitle {
+  margin: 120px 0px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 72px;
+  line-height: .5;
+  text-align: center;
+  opacity: .5;
+  letter-spacing: 8px;
+  padding: 0px 0px 165px;
+}
+
+#honors {
+  padding: 20px 20px 0px 6px;
+}
+
+#honors p,
+#skills p {
+  padding-left: 40px;
+}
+
+#topnav {
+  margin-bottom: 70px;
+  padding: 0px 4px 4px 40px;
+}
+
+#indent {
+  padding-left: 40px;
+}
+
+.internship,
+.campus-involvement {
+  padding-left: 40px;
+}
+
+#contactaddress {
+  text-align: center;
+}
+
+#contactaddress h2 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 36px;
+  line-height: .5;
+  text-align: center;
+  opacity: .5;
+  letter-spacing: 4px;
+  padding: 20px 0 30px 20px;
+}
+
+#contactaddress nav ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+#contactaddress li {
+  display: inline-block;
+  margin-right: 38px;
+}
+
+#getintouch h2{
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 47px;
+  line-height: .5;
+  text-align: center;
+  opacity: .5;
+  letter-spacing: 4px;
+  padding-bottom: 30px;
+}
+
+#getintouch div label{
+  margin-left: 325px;
+}
+
+#getintouch form div input {
+  margin-left: 360px;
+}
+
+#coursework {
+  padding-bottom: 40px;
+}
+
+#coursework h3 {
+  padding-left: 40px;
+}
+
+#coursework ul li {
+    margin: 8px 0 0 40px;
+}
+
+#coursework h3 {
+  margin-top: 20px;
+}
+
+#bottom-box {
+  margin-top: 0;
+}
+
+#skills {
+  width: 380px;
+  float: left;
+  margin-right: 10px;
+}
+
+#honors {
+  width: 380px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}

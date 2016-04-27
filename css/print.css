@@ -1,0 +1,98 @@
+* {
+  background: transparent; !important
+  color: black;
+  font-size: 9pt;
+  font-family: "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+nav,
+footer {
+  display: none;
+}
+
+header {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 40pt;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 11pt;
+  margin-bottom: .05in;
+  /*margin: .2in 0 .05in 0;*/
+}
+h2 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 10pt;
+  margin: .1in 0 .1in;
+}
+
+section,
+article {
+  margin-bottom: 0.1in;
+}
+
+h3,
+h4,
+h5,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+#centertitle {
+  display: none;
+}
+
+#printtitle {
+  font-size: 12pt;
+  text-align: center;
+  margin: .02in;
+}
+
+#contactprint {
+  margin-bottom: 0;
+}
+
+#education {
+  width: 54%;
+  float: left;
+  margin-bottom: .2in;
+}
+
+#bottom-box {
+  margin-top: 0;
+}
+
+#skills {
+  width: 36%;
+  float: left;
+  margin-right: 10%;
+}
+
+#honors {
+  width: 54%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
