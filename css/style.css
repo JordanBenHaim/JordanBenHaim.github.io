@@ -1,0 +1,354 @@
+/*style.css*/
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  color: rgb(59,84,106);
+  font-size: 13px;
+  background-image: url("../img/lightmarble.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+/*links*/
+a {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 13px;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: rgb(59,84,106);
+}
+
+a:active {
+  color: rgb(229,229,229);
+}
+
+header {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 15px;
+  text-align: center;
+}
+
+h2 {
+  /*font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 22px;
+  padding-left: 20px;*/
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 36px;
+  line-height: .5;
+  opacity: .8;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h3 {
+  color: rgb(59,84,106);
+  opacity: .7;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+h3 a {
+  font-size: 16px;
+}
+
+section h2 p,
+#top-box h2 p,
+#skills h2 p{
+  font-size: 12px;
+}
+
+/*h3,*/
+p {
+  margin-bottom: 8px;
+}
+
+article p{
+  /*color: rgb(59,84,106);*/
+  /*opacity: .7;*/
+  text-transform: uppercase;
+  /*letter-spacing: 1.5px;*/
+  font-size: 14px;
+}
+
+ul,
+h4,
+h5 {
+  margin: 4px 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+main {
+  background-color: rgba(237,238,240,.5);
+}
+
+section {
+  padding: 10px 20px 0px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 49.5px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+form {
+  padding: 0 0 80px 50px;
+}
+
+label {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  color: rgb(59,84,106);
+  font-size: 14px;
+}
+
+input {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  color: rgb(59,84,106);
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+form div {
+  margin-bottom: 30px;
+}
+
+.button {
+  padding-left: 390px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  letter-spacing: .7px;
+  color: #000;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  border-image: none;
+  background-color: none;
+}
+
+footer {
+  padding: 50px 0px 10px 30px;
+}
+
+#printtitle,
+#contactprint {
+  display: none;
+}
+
+#name{
+  padding: 0px;
+  margin:0 auto;
+}
+
+#top-box {
+  overflow:auto;
+  /*padding-left: 20px;*/
+  padding-top: 10px;
+}
+
+#top-box section {
+  /*width: 380px;*/
+  float: left;
+  padding-left: 20px;
+}
+
+#centertitle {
+  margin-top: 120px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 72px;
+  line-height: .5;
+  text-align: center;
+  opacity: .5;
+  letter-spacing: 8px;
+  padding: 0px;
+}
+
+#scroll {
+  /*margin-bottom: 40px;*/
+  margin-top: 180px;
+  font-size: 12px;
+  padding-bottom: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  opacity: .7;
+}
+
+#honors {
+  padding: 20px 20px 0px 6px;
+}
+
+#honors p,
+#skills p {
+  padding-left: 40px;
+}
+
+#topnav {
+  margin-bottom: 70px;
+  padding: 0px 4px 4px 40px;
+}
+
+#indent {
+  padding-left: 40px;
+}
+
+.internship,
+.campus-involvement {
+  padding-left: 40px;
+}
+
+#contactaddress {
+  text-align: center;
+}
+
+#contactaddress h2 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: rgb(59,84,106);
+  font-size: 36px;
+  line-height: .5;
+  opacity: .8;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 20px 0 30px;
+}
+
+#contactaddress nav ul {
+  /*list-style: none;*/
+  padding-left: 0;
+  /*text-align: center;*/
+}
+
+#contactaddress ul {
+  padding-left: 0;
+}
+
+#contactaddress li {
+  line-height: 2;
+}
+/*
+#contactaddress li {
+  display: inline-block;
+  margin-right: 42px;
+}*/
+
+#getintouch h3{
+  color: rgb(59,84,106);
+  line-height: .5;
+  text-align: center;
+  opacity: .7;
+  letter-spacing: 3px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.myinfo h3{
+  color: rgb(59,84,106);
+  line-height: .5;
+  text-align: center;
+  opacity: .7;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  padding-left: 27px;
+  font-size: 16px;
+}
+
+.myinfo {
+  padding-left: 0;
+}
+
+#coursework {
+  padding-bottom: 40px;
+}
+
+#coursework h3 {
+  padding-left: 40px;
+}
+
+#coursework ul li {
+    margin: 8px 0 0 40px;
+}
+
+#coursework h3 {
+  margin-top: 20px;
+}
+
+#bottom-box {
+  margin-top: 0;
+}
+
+#skills {
+  width: 380px;
+  float: left;
+  margin-right: 10px;
+}
+
+#honors {
+  width: 380px;
+  float: left;
+  padding-top: 0px;
+}
+
+#honors p,
+#skills p{
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.clear {
+  clear: both;
+}
+
+#education p,
+.internship p,
+.campus-involvement p {
+  margin-bottom: 14px;
+}
+
+#education h2 {
+  margin-bottom: 0;
+}
